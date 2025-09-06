@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="t">
+<listeners>
+<listener class-name="com.orangehrm.genericscripts.EventListeners"></listener>
+</listeners>
+<parameter name="browserName" value="chrome"></parameter>
+  <test thread-count="5" name="TestAddEmployees">
+    <classes>
+      <class name="com.orangehrm.runnerscripts.runnerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
