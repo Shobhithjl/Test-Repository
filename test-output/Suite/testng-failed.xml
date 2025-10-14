@@ -7,15 +7,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.orangehrm.runnerscripts.TestRunnerForFail">
+      <class name="com.orangehrm.runnerscripts.runnerTest">
         <methods>
+          <include name="testcase"/>
           <include name="launchApplication"/>
           <include name="initBrowser"/>
-          <include name="createEmployee"/>
           <include name="closeBrowser"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- com.orangehrm.runnerscripts.TestRunnerForFail -->
+      </class> <!-- com.orangehrm.runnerscripts.runnerTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.runnerscripts.TestRunner">
+      <class name="com.orangehrm.runnerscripts.runnerTest">
         <methods>
           <include name="testcase"/>
           <include name="launchApplication"/>
           <include name="initBrowser"/>
-          <include name="closeBrowser"/>
           <include name="logout"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.orangehrm.runnerscripts.TestRunner -->
+      </class> <!-- com.orangehrm.runnerscripts.runnerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
